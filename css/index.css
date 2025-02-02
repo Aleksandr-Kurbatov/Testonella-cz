@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+title{
+    font-size: 48px;
+}
+
+body{
+    background-color: #5C3515; 
+}
+
+.btn{
+    background-color: #5C3515;
+    border-radius: 25px;
+}
+
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+    height: fit-content;
+}
+
+/*header*/
+.header{
+    height: 100px;
+    background-color: #E8DCCA;
+}
+
+.header-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo{
+    margin-left: 120px;
+}
+
+.header__navigation-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 140px;
+    list-style: none;
+    font-size: 24px;
+}
+
+.header__navigation-item{
+    margin: 40px;
+    margin-right: 0px;
+}
+
+/*Hero*/
+
+.section-hero{
+    padding-top: 40px;
+    background: url("../img/SectionHero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-hero__content{
+    width: 100%;
+    height: auto;
+    display: flex;
+   
+}
+
+.section-hero__desc{
+    display: block;
+    padding-top: 65px;
+    margin-left: 120px;
+    font-size: 24px;
+}
+
+.btn-desc{
+    width: 260px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+/*Menu*/
+
+.section-menu {
+    padding: 40px 20px;
+}
+
+.section-menu__container { 
+    margin: auto;
+    text-align: center; 
+}
+
+.title-center {
+    margin-bottom: 20px; /* Отступ под заголовком */
+}
+
+.section-menu__cards {
+    display: flex;
+    justify-content: space-around; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.section-menu__card {
+    padding: 20px;
+    text-align: center; /* Центрируем текст внутри карточки */
+    width: fit-content; /* Фиксированная ширина карточки */
+    display: flex;
+    flex-direction: column; /* Элементы располагаются сверху вниз */
+    align-items: center; /* Центрируем содержимое по горизонтали */
+}
+
+.section-menu__img {
+    max-width: 100%; /* Картинка адаптируется по ширине карточки */
+    margin-bottom: 10px; 
+}
+
+.section-menu__name {
+    font-size: 28px;
+    margin-bottom: 10px; /* Отступ под названием */
+}
+
+.section-menu__price {
+    font-size: 48px;
+}
+
+.title-center{
+    text-align: center;
+}
+
+/*advantages*/
+
+.section-advantage {
+    height: 450px;
+    padding: 40px 20px;
+    background: url('../img/Sectionadvantage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-advantage__container { 
+    margin: auto;
+    text-align: center; 
+}
+
+.title-center {
+    margin-bottom: 20px; 
+}
+
+.section-advantage__cards {
+    display: flex;
+    justify-content: space-around; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+}
+
+.section-advantage__card {
+    padding: 20px;
+    text-align: center; 
+    width: fit-content; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.section-advantage__name {
+    font-size: 40px;
+    margin-bottom: 10px; 
+}
+
+.section-advantage__desc {
+    font-size: 18px;
+}
+
+.title-center{
+    text-align: center;
+}
+
+.swiper-slide{
+    padding-top: 60px;
+    padding-bottom: 120px;
+    padding-right: 120px;
+    padding-left: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    color: #5C3515;
+}
+
+.swiper{
+    background-color: #E8DCCA;
+}
